@@ -6,7 +6,7 @@
 //  Copyright © 2019 Kaibo Lu. All rights reserved.
 //
 
-enum FilterType {
+enum FilterType:String,CaseIterable {
     case brightness
     case exposure
     case contrast
